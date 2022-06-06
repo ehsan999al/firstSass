@@ -1,0 +1,18 @@
+
+h1{
+    background-color: aquamarine;
+    animation: h1-move 2s linear;  
+    position: relative;
+
+}
+
+    @keyframes h1-move {
+    0%{
+        opacity: 0%;
+        right: 300px;
+    }
+    100%{
+    opacity: 100%;
+    right: 0px;
+    }
+}
